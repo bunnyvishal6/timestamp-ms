@@ -23,7 +23,9 @@ function isNaturaTime(time){
 }
 
 function isUnixTime(time){
-    return new Date(parseInt(time)).getTime() > 0;
+     if(isNaN(time) === false){
+         return true;
+     }
 }
 
 function convertToUnixTime(time){
