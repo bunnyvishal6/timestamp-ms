@@ -1,0 +1,28 @@
+{
+    "name": "timestamp-ms",
+    "version": "1.0.0",
+    "description": "This is a timestamp microservice. pass a string as a parameter after the domain name and '/', and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url":"git+https://github.com/bunnyvishal6/timestamp-ms"
+    },
+    "author": "Bunny Vishal",
+    "homepage": "https://www.bunnyvishal.com",
+    "keywords": [
+        "full stack",
+        "Node",
+        "javascript",
+        "timestamp",
+        "microservice"
+    ],
+    "scripts": {
+        "start": "node app.js"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "4.4.5",
+        "npm": "3.9.5"
+    }
+    
+}
